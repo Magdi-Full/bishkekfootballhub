@@ -1,0 +1,14 @@
+.mainContainer {
+  padding-block: 40px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 900px;
+  img {
+    border: 2px solid black;
+    border-radius: 10%;
+  }
+  .text {
+    width: 60%;
+  }
+}

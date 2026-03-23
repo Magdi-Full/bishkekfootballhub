@@ -1,0 +1,37 @@
+.mainContainer {
+  background: lab(77 20.49 73.38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-top: 3px solid gray;
+  padding: 20px;
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    a.youtube {
+      color: red;
+    }
+    a.instagram {
+      color: rgb(227, 86, 255);
+    }
+    a.telegram {
+      color: rgb(62, 200, 255);
+    }
+    a.vk {
+      color: blue;
+    }
+    a {
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+  p {
+    font-size: 20px;
+    word-spacing: 8px;
+    letter-spacing: 8px;
+  }
+}
